@@ -22,7 +22,7 @@ final class OrderAddLineInput
         #[ApiProperty(schema: [
             'type' => 'integer',
             'description' => 'Nombre de portions du plat.',
-            'minimum' => 0,
+            'minimum' => 1,
         ], required: true)]
         public int $quantity,
     ) {
